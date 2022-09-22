@@ -45,6 +45,7 @@ const Home = memo(() => {
   return (
     <HomeWrapper>
       <HomeBanner />
+      <h2>哈哈哈哈哈</h2>
       <div className="content">
         {isEmpty(discountInfo) && (
           <HomeSectionV2 itemData={discountInfo} itemWidth="33.3333%" />
